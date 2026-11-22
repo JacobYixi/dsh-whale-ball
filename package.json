@@ -39,7 +39,6 @@
     "native/*.ps1",
     "native/theme/*.png",
     "native/webview2/*",
-    "screenshots/*.png",
     "README.md",
     "README.en.md",
     "LICENSE",
