@@ -1,0 +1,82 @@
+{
+  "name": "dsh-whale-ball",
+  "version": "1.0.0",
+  "description": "鲸尾悬浮球：Windows 桌面悬浮球 + WebView2 聊天窗，带主题皮肤、布纹质感、三档颜色模式与贴边半隐，直接对接当前 DSH 会话。",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USER/dsh-whale-ball.git"
+  },
+  "homepage": "https://github.com/USER/dsh-whale-ball#readme",
+  "bugs": {
+    "url": "https://github.com/USER/dsh-whale-ball/issues"
+  },
+  "author": "Jacob",
+  "contributors": [
+    "han8421 (upstream dsh-desktop-ball)"
+  ],
+  "icon": "icon.png",
+  "os": [
+    "win32"
+  ],
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "native/*.ps1",
+    "native/theme/*.png",
+    "native/webview2/*",
+    "screenshots/*.png",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "docs/*.md",
+    "docs/*.png",
+    "screenshots.json"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "desktop-ball",
+    "floating-window",
+    "desktop",
+    "whale",
+    "theme"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-api-workspace-controller",
+        "@deepseek-ai/dsh-client-file-upload",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
