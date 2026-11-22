@@ -46,7 +46,7 @@ npm install dsh-whale-ball
 **方式三：从源码**
 
 ```powershell
-git clone https://github.com/USER/dsh-whale-ball.git
+git clone https://github.com/JacobYixi/dsh-whale-ball.git
 cd dsh-whale-ball
 # 用本地目录链接进 profile
 ```
