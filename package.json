@@ -6,13 +6,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USER/dsh-whale-ball.git"
+    "url": "git+https://github.com/JacobYixi/dsh-whale-ball.git"
   },
-  "homepage": "https://github.com/USER/dsh-whale-ball#readme",
+  "homepage": "https://github.com/JacobYixi/dsh-whale-ball#readme",
   "bugs": {
-    "url": "https://github.com/USER/dsh-whale-ball/issues"
+    "url": "https://github.com/JacobYixi/dsh-whale-ball/issues"
   },
-  "author": "Jacob",
+  "author": "JacobYixi",
   "contributors": [
     "han8421 (upstream dsh-desktop-ball)"
   ],
