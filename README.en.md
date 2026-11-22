@@ -4,13 +4,13 @@ A tiny floating ball for Windows that puts the DSH session you are already in on
 
 It is **not** a separate chat client: the ball shows the same DSH session — same model, same permission mode, same reasoning effort, same approval cards, same balance. Closing the ball does not stop your tasks; closing DSH removes the ball.
 
-![The ball](screenshots/ball.png)
+![The ball](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/ball.png)
 
 The expanded panel (both images are rendered from the real styles with placeholder content, not a real conversation):
 
 | Light | Dark (Midnight skin) |
 | --- | --- |
-| ![panel](screenshots/panel-light.png) | ![dark panel](screenshots/panel-dark.png) |
+| ![panel](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/panel-light.png) | ![dark panel](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/panel-dark.png) |
 
 ## Relationship to upstream (please read)
 
@@ -51,14 +51,14 @@ Eight skins, each with a light and a dark palette that follow the system theme, 
 | Glass | Sand | Grit | Haze |
 | Mint | Linen | Sakura | Midnight |
 
-![all skins](screenshots/skins.png)
+![all skins](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/skins.png)
 
 - **The weave is real weave**: CSS-drawn warp and weft, not a bitmap, so it stays crisp at any DPI. Grit/Sand/Linen read as fabric; Glass/Mint/Sakura/Midnight stay clean.
 - **Grain**: per-skin noise strength; dark mode drops the weave and keeps the grain.
 - **Custom**: pick your own base and accent colour, grain low/medium/high (one knob drives grain and weave together).
 - **Colour mode**: follow system / light / dark. A dark skin (Midnight) stays dark in every mode.
 
-![dark](screenshots/panel-dark.png)
+![dark](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/panel-dark.png)
 
 ## What this fork changes
 
