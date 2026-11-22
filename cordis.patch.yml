@@ -1,0 +1,6 @@
+# This layer is applied when a profile lists dsh-whale-ball in dsh.profile.bundles.
+# Rows reference the package by name, not by path, so Node resolves the installed code.
+# The id differs from upstream (quick-chat) so the two packages cannot collide.
+- insert:
+    - id: whale-ball
+      name: dsh-whale-ball
