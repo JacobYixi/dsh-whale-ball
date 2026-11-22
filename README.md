@@ -4,13 +4,13 @@ Windows 桌面上的一个小球，点一下就在当前 DSH 会话里说话。
 
 它不是一个独立聊天客户端：球里跑的就是你正在用的那个 DSH 会话，模型、权限、推理等级、审批卡片、余额全都沿用 DSH 本身。**关掉球不会中断任务，关掉 DSH 球才会消失。**
 
-![桌面上的球](screenshots/ball.png)
+![桌面上的球](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/ball.png)
 
 展开后的面板（下面两张是按真实样式渲染的界面示意，对话内容是示例，不是真实会话）：
 
 | 浅色 | 深色（午夜皮肤） |
 | --- | --- |
-| ![面板](screenshots/panel-light.png) | ![深色面板](screenshots/panel-dark.png) |
+| ![面板](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/panel-light.png) | ![深色面板](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/panel-dark.png) |
 
 ## 和原版的关系（重要）
 
@@ -69,7 +69,7 @@ cd dsh-whale-ball
 | 玻璃 Glass | 暖砂 Sand | 粗砂 Grit | 雾面 Haze |
 | 青竹 Mint | 亚麻 Linen | 樱 Sakura | 午夜 Midnight |
 
-![主题一览](screenshots/skins.png)
+![主题一览](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/skins.png)
 
 - **布纹是真的布纹**：不是贴图，是 CSS 线条画的经纬，缩放到任何 DPI 都不会糊；粗砂/亚麻/暖砂有明显织物感，玻璃/青竹/樱/午夜是干净的
 - **颗粒**：每套皮肤有自己的噪点强度，深色模式自动关掉布纹只留颗粒
@@ -78,7 +78,7 @@ cd dsh-whale-ball
 
 深色主题下的面板与菜单：
 
-![深色](screenshots/panel-dark.png)
+![深色](https://raw.githubusercontent.com/JacobYixi/dsh-whale-ball/main/screenshots/panel-dark.png)
 
 ## 本 fork 改了什么
 
